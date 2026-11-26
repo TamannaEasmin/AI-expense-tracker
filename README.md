@@ -17,7 +17,6 @@ A FastAPI-based backend that tracks expenses and uses AI (via Groq) to analyze s
 2. Create a virtual environment: `python3 -m venv .venv`
 3. Activate: `source .venv/bin/activate`
 4. Install dependencies: `pip install -r requirements.txt`
-5. Add your `GROQ_API_KEY` to `.env`.
-6. Run the server: `uvicorn main:app --reload`
-7. Open `http://127.0.0.1:8000/docs` to test.
+5. Run the server: `uvicorn main:app --reload`
+6. Open `http://127.0.0.1:8000/docs` to test.
 
